@@ -12,5 +12,5 @@ Another task
 *** Keywords ***
 My Browser Keyword
     ${test}=    Open Available Browser    https://www.google.com    maximized=True
-    #Click Button
-    Sleep	30s
+    Sleep    1s
+    Click Button    I agree
